@@ -3,10 +3,10 @@
 ## The task of the topic "Web Workers"
 
 You have an input field and a Caclulate button. 
-When user enters a number and presses Calculate button, the fibonacci value should be evaluated and displayed in the div with id 'result' in a form **Result: evaluated_fibonacci**
+When user enters a number and presses Calculate button, the fibonacci value should be evaluated and displayed in the div with id 'result' (*innerText*) in a form **Result: evaluated_fibonacci**
 While the value is being evaluated, please, display **Calculating...** in the div
 
-Please, use web worker for the evaluation.
+Please, use web worker for the evaluation. It should receive a data in form of an object {data: someValue}. Result of its work should be a Number.
 
 You have all the necessary files created, please, use them.
 
