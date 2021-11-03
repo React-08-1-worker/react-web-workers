@@ -7,11 +7,6 @@
   "scripts": {
     "test": "jest"
   },
-  "jest": {
-    "setupFiles": [
-      "jsdom-worker"
-    ]
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
